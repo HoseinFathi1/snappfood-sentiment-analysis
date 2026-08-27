@@ -1,5 +1,3 @@
-# snappfood-sentiment-analysis
-Persian Sentiment Analysis for SnappFood Customer Reviews using Fine-Tuned ParsBERT and Django.
 # SnappFood Persian Sentiment Analysis — Django App
 
 A small Django web app that classifies Persian text as **Happy** (positive)
