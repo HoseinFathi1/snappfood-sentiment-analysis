@@ -9,9 +9,9 @@ The model was fine-tuned on the SnappFood review dataset — see
 
 ## Demo
 
-| Form | Happy Result | Sad Result |
-|---|---|---|
-| ![Form](ِDemo/index.png) | ![Happy result](Demo/happy.png) | ![Sad result](Demo/sad.png) |
+| Happy Result | Sad Result |
+|---|---|
+| ![Happy result](Demo/happy.png) | ![Sad result](Demo/sad.png) |
 
 ## Project Structure
 
