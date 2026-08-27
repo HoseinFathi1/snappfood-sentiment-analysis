@@ -7,12 +7,19 @@ the form, get back the sentiment label and a confidence score.
 The model was fine-tuned on the SnappFood review dataset — see
 `snappfood_sentiment_analysis.ipynb` for the full training pipeline.
 
+## Demo
+
+| Form | Happy Result | Sad Result |
+|---|---|---|
+| ![Form](ِDemo/index.png) | ![Happy result](Demo/happy.png) | ![Sad result](Demo/sad.png) |
+
 ## Project Structure
 
 ```
 sentiment_site/
 ├── manage.py
 ├── requirements.txt
+├── screenshots/                            Demo images used in this README
 │
 ├── sentiment_site/                        Project settings
 │   ├── settings.py
@@ -31,6 +38,7 @@ sentiment_site/
     ├── config.json
     └── tokenizer_config.json
 ```
+
 ## Installation
 
 ```bash
@@ -66,5 +74,3 @@ python manage.py runserver
 ```
 
 Open **http://127.0.0.1:8000/**, type a Persian sentence, and submit.
-
-
